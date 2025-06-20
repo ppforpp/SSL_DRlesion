@@ -12,7 +12,7 @@ from torch import nn
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torchvision.utils import make_grid, save_image
 from torchmetrics import MetricCollection, AveragePrecision, AUROC
-from torchmetrics.classification import DiceCoefficient as Dice
+from torchmetrics import Dice
 #from torchmetrics import MetricCollection, Dice, AveragePrecision, AUROC
 from pytorch_lightning import LightningModule
 
